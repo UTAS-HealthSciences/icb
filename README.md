@@ -4,12 +4,14 @@ This README would normally document whatever steps are necessary to get your app
 
 ### What is this repository for? ###
 * Quick summary
+
 This repository is for holding the version of the ICB that is intended to be migrated to the new ICB server.
 Initially it will hold a clone of the current ICB service that is hosted on the health.utas.edu.au/templates virtual webhost.
 
 Changes to this master product will be pushed out to a test enviromnent and then to a production environment.
 
 Prior to this master being pushed out, changes will be implemented to introduce consistency in the organisation of resources
+
 * removal of references to dementia.health.utas.edu.au
 * redirection via symbolic link from resources that point to /templates/common  to point to resources in /templates/v3-at/common
 * merging of the wicking and v3-at versions of the ICB via symbolically linking references in /wicking to resources in /v3-at.
@@ -38,6 +40,7 @@ Watch this space
 
 ### Who do I talk to? ###
 * Repo owner or admin
+
 Jeremy O'Reilly: [Jeremy.OReilly@utas.edu.au](mailto:Jeremy.OReilly@utas.edu.au)
 
 * Other community or team contact
