@@ -22,7 +22,7 @@ Prior to this master being pushed out, changes will be implemented to introduce 
 
 ### How do I get set up? ###
 
-Wstch this space
+Watch this space
 
 * Summary of set up
 * Configuration
@@ -32,6 +32,7 @@ Wstch this space
 * Deployment instructions
 
 ### Contribution guidelines ###
+Watch this space
 
 * Writing tests
 * Code review
@@ -39,7 +40,7 @@ Wstch this space
 
 ### Who do I talk to? ###
 
-Jeremy O'Reilly: Jeremy.OReilly@utas.edu.au
+Jeremy O'Reilly: [Jeremy.OReilly@utas.edu.au](mailto:Jeremy.OReilly@utas.edu.au)
 
 * Repo owner or admin
 * Other community or team contact
