@@ -1,0 +1,409 @@
+#container {
+    margin-top: 44px;
+    margin-bottom: 36px;
+    -webkit-box-shadow: 0px 0px 140px 80px rgba(255, 255, 255, .30);
+    -moz-box-shadow: 0px 0px 140px 80px rgba(255, 255, 255, .30);
+    box-shadow: 0px 0px 140px 80px rgba(255, 255, 255, .30);
+}
+
+#header {
+    color: white;
+    text-align: left;
+
+    background: -webkit-linear-gradient(60deg, #616363 55%, #666868 45%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(60deg, #616363 55%, #666868 45%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(60deg, #616363 55%, #666868 45%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(60deg, #616363 55%, #666868 45%); /* Standard syntax (must be last) */
+}
+
+a {
+    text-decoration: underline;
+}
+
+a.pdf-link {
+    display: none;
+}
+
+#header img {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#header .text-right img {
+    margin-right: 1em;
+}
+
+.utas-logo {
+    /* background-color:#C40000;*/
+    padding: 1em; /*margin:1em;*/
+    margin: 1em;
+}
+
+h1,
+.h1 {
+    font-size: 28px;
+}
+h2,
+.h2 {
+    font-size: 23px;
+}
+h3,
+.h3 {
+    font-size: 18px;
+}
+h4,
+.h4 {
+    font-size: 14px;
+}
+h5,
+.h5 {
+    font-size: 11px;
+}
+h6,
+.h6 {
+    font-size: 9px;
+}
+
+#header h1 {
+    font-family: "omnes-pro", sans-serif;
+    /*margin-top: .2em;*/
+    /*margin-bottom: 0.2em;*/
+    font-size: 2em;
+    font-weight: 300;
+}
+
+#header h2 {
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+
+.page-header {
+    border-bottom-color: #ACADAD;
+}
+
+/* PANELS */
+.panel {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    background-color: #F1F1F1;
+}
+
+.panel-default > .panel-heading {
+    background-color: #B3B3B3;
+}
+
+.panel-info > .panel-heading, .panel-warning > .panel-heading {
+    border: none;
+}
+
+.panel .panel-heading {
+    border-radius: 0;
+}
+
+.panel-title {
+    color: #000000;
+}
+
+.panel-calendar .panel-heading {
+    background-color: #AE425D;
+}
+
+.panel-calendar .panel-title {
+    color: #ffffff;
+}
+
+.icon-calendar {
+    background-image: url('../icons/calendar.png');
+    display: inline-block;
+}
+
+.panel-quiz .panel-heading {
+    background-color: #D55222;
+}
+
+.panel-quiz .panel-title {
+    color: #ffffff;
+}
+
+.icon-quiz {
+    background-image: url('../icons/quiz.png');
+    display: inline-block;
+}
+
+.panel-learningOutcomes .panel-heading {
+    background-color: #C4A673;
+}
+
+.icon-learningOutcomes {
+    background-image: url('../icons/learning_outcomes.png');
+    display: inline-block;
+}
+
+.panel-survey .panel-heading {
+    background-color: #357D7C;
+}
+
+.panel-survey .panel-title {
+    color: #ffffff;
+}
+
+.icon-survey {
+    background-image: url('../icons/survey.png');
+    display: inline-block;
+}
+
+.panel-activity .panel-heading {
+    background-color: #60705B;
+}
+
+.panel-activity .panel-title {
+    color: #ffffff;
+}
+
+.icon-activity {
+    background-image: url('../icons/activity.png');
+    display: inline-block;
+}
+
+.panel-discussion .panel-heading {
+    background-color: #385A6E;
+}
+
+.panel-discussion .panel-title {
+    color: #ffffff;
+}
+
+.icon-discussion {
+    background-image: url('../icons/discussion.png');
+    display: inline-block;
+}
+
+.panel-reading .panel-heading {
+    background-color: #537D86;
+}
+
+.panel-reading .panel-title {
+    color: #ffffff;
+}
+
+.icon-reading {
+    background-image: url('../icons/reading.png');
+    display: inline-block;
+}
+
+.panel-assessmentItem .panel-heading {
+    background-color: #B3B3B3;
+}
+
+.icon-assessmentItem {
+    background-image: url('../icons/assessment_item.png');
+    display: inline-block;
+}
+
+.panel-experiment .panel-heading {
+    background-color: #364A5E;
+}
+
+.panel-experiment .panel-title {
+    color: #ffffff;
+}
+
+.icon-experiment {
+    background-image: url('../icons/experiment.png');
+    display: inline-block;
+}
+
+.panel-reflection .panel-heading {
+    background-color: #C095A1;
+}
+
+.icon-reflection {
+    background-image: url('../icons/reflection.png');
+    display: inline-block;
+}
+
+.panel-question .panel-heading {
+    background-color: #976CAC;
+}
+
+.panel-question .panel-title {
+    color: #ffffff;
+}
+
+.icon-question {
+    background-image: url('../icons/single_question.png');
+    display: inline-block;
+}
+
+.panel-lecture .panel-heading {
+    background-color: #58A1D8;
+}
+
+.icon-lecture {
+    background-image: url('../icons/lecture.png');
+    display: inline-block;
+}
+
+.panel-thoughtTree .panel-heading {
+    background-color: #A99185;
+}
+
+.icon-thoughtTree {
+    background-image: url('../icons/decision_tree.png');
+    display: inline-block;
+}
+
+.panel-warning {
+    border-color: #F8CB00;
+}
+
+.panel-warning > .panel-heading {
+    background-color: #FCDF86;
+}
+
+.bg-warning {
+    background-color: #FEF4DA;
+}
+
+.panel-info {
+    border-color: #00568A;
+}
+
+.panel-info .panel-heading {
+    background-color: #758FB6;
+}
+
+.bg-info {
+    background-color: #D3D7E7;
+}
+
+.bg-danger {
+    background-color: #F1A7A7;
+}
+
+.caption {
+    color: #999;
+}
+
+/*CALLOUT BOXES*/
+.callout {
+    margin: 20px 0;
+    padding: 20px;
+    border-left: 3px solid #eee;
+}
+
+.callout h4, h5 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+
+.callout-success {
+    background-color: #D8E6B0;
+    border-color: #95C11E;
+}
+
+.callout-success h4,
+.callout-success h5,
+.callout-success strong {
+    color: #000;
+}
+
+.icon-attention_positive {
+    background-image: url('../../../img/icons/icon-attention_positive.png');
+    display: inline-block;
+}
+
+.callout-info {
+    background-color: #CBD6E2;
+    border-color: #5D7289;
+}
+
+.callout-info h4,
+.callout-info h5,
+.callout-info strong {
+    color: #1E3A59;
+}
+
+.callout-warning {
+    background-color: #FFE9B7;
+    border-color: #FFB611;
+}
+
+.callout-warning h4,
+.callout-warning h5,
+.callout-warning strong {
+    color: #000;
+}
+
+.callout-danger {
+    background-color: #E4A9A6;
+    border-color: #BE1621;
+}
+
+.callout-danger h4,
+.callout-danger h5,
+.callout-danger strong {
+    color: #000;
+}
+
+.icon-attention_negative {
+    background-image: url('../../../img/icons/icon-attention_negative.png');
+    display: inline-block;
+}
+
+#footer .caption {
+    color: #E5E6E8;
+    font-size: .8em;
+}
+
+/* quotes,fancy quotes and citations */
+blockquote {
+    /* over-ride the bootstrap blockquoute styling */
+    border: none !important;
+    font-weight: normal;
+    font-size: inherit;
+}
+
+blockquote.mark {
+    quotes: "\201C" "\201D";
+}
+
+blockquote.mark {
+    font-style: italic;
+    display: inline-block;
+    padding-top: .9em;
+    padding-left: 2.2em;
+    padding-right: 2.2em;
+    padding-bottom: .0em;
+    background: url(../../../img/quote-open.png) top left no-repeat, url(../../../img/quote-close.png) bottom right no-repeat;
+}
+
+cite {
+    color: #999;
+    font-size: 0.6em;
+    display: block;
+    margin-top: 0.1em;
+    text-align: right;
+}
+
+blockquote.mark + cite:before {
+    content: "\2014 \2009";
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.dit-spacer {
+    background-color: #D3D7E7;
+    font-size: 10px;
+}
+
+.dit-spacer.invisible {
+    visibility: hidden;
+}
+

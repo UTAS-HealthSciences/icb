@@ -1,0 +1,24 @@
+@import url('../../common/css/main.css');
+
+body {
+    /* Stone */
+    background-color: #C8C4BF;
+}
+
+#main h1, #main h2, #main h3 {
+    border-bottom-color: #ACADAD;
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: 1px solid #eee;
+}
+
+#main .panel h1, #main .panel h2, #main .panel h3 {
+
+    padding-bottom: 0px;
+    margin: 0px;
+    border-bottom: none;
+}
+
+.rubric {
+    font-size = .8em;
+}

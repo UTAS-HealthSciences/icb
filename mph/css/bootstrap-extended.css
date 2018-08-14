@@ -1,0 +1,29 @@
+#utas-logo {
+    background-color: rgb(196,0,0);
+    padding:1em;
+    /*margin: 1em;*/
+}
+
+.panel-primary.background-colour>.panel-body {
+    background-color: #90BEE4;
+}
+
+.panel-success.background-colour>.panel-body {
+    background-color: #E9F4E0;
+}
+
+.panel-info.background-colour>.panel-body {
+    background-color: #DAF3F8;
+}
+
+.panel-warning.background-colour>.panel-body {
+    background-color: #FDF4E3;
+}
+
+.panel-danger.background-colour>.panel-body {
+    background-color: #F5E3E6;
+}
+
+.caption {
+    color: #999;
+}

@@ -1,0 +1,429 @@
+/* ==========================================================================
+Author's custom styles
+========================================================================== */
+body {
+    /* font-family:'Open Sans',Arial,Helvetica,sans-serif;*/
+    /*background-image: url('../img/BDC_MyLO.png');*/
+
+    background-image: url('../img/eyesdraft-trans2.png');
+
+    background-repeat: repeat;
+    background-position: center top;
+    background-color: #A9B1A3;
+
+}
+
+#container {
+    margin-top: 44px;
+    margin-bottom: 36px;
+    -webkit-box-shadow: 0px 0px 140px 80px rgba(255, 255, 255, .30);
+    -moz-box-shadow: 0px 0px 140px 80px rgba(255, 255, 255, .30);
+    box-shadow: 0px 0px 140px 80px rgba(255, 255, 255, .30);
+}
+
+#header {
+    color: white;
+    text-align: left;
+
+    background: -webkit-linear-gradient(60deg, #616363 55%, #666868 45%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(60deg, #616363 55%, #666868 45%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(60deg, #616363 55%, #666868 45%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(60deg, #616363 55%, #666868 45%); /* Standard syntax (must be last) */
+}
+
+a {
+    text-decoration: underline;
+}
+
+a.pdf-link {
+    display: none;
+}
+
+#header img {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#header .text-right img {
+    margin-right: 1em;
+}
+
+h1,
+.h1 {
+    font-size: 28px;
+}
+h2,
+.h2 {
+    font-size: 23px;
+}
+h3,
+.h3 {
+    font-size: 18px;
+}
+h4,
+.h4 {
+    font-size: 14px;
+}
+h5,
+.h5 {
+    font-size: 11px;
+}
+h6,
+.h6 {
+    font-size: 9px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "proxima-nova", sans-serif;
+    /*font-weight: 500;*/
+}
+
+#header h1 {
+    font-family: "omnes-pro", sans-serif;
+    /*margin-top: .2em;*/
+    /*margin-bottom: 0.2em;*/
+    font-size: 3em;
+    font-weight: 300;
+}
+
+#header h2 {
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+.utas-logo {
+    /* background-color:#C40000;*/
+    padding: 1em; /*margin:1em;*/
+    margin: 1em;
+}
+
+.page-header {
+    border-bottom-color: #ACADAD;
+}
+
+/* PANELS */
+
+.panel-title {
+    color: #333;
+}
+
+.panel-calendar {
+    border-color: #BE134F;
+}
+
+.panel-calendar .panel-heading {
+    background-color: #D67D8C;
+}
+
+.icon-calendar {
+    background-image: url('../img/icons/icon-calendar.png');
+}
+
+.panel-quiz {
+    border-color: #EB613E;
+}
+
+.panel-quiz .panel-heading {
+    background-color: #F39C82;
+}
+
+.icon-quiz {
+    background-image: url('../img/icons/icon-quiz.png');
+}
+
+.panel-learningOutcomes {
+    /*   border-color: #F08520; */
+    border-color: #498192;
+}
+
+.panel-learningOutcomes .panel-heading {
+    /*background-color: #F8B97D;*/
+    background-color: #90BAD3;
+}
+
+.icon-learningOutcomes {
+    /* background-image: url('../img/icons/icon-learning_outcomes.png');*/
+    background-image: url('../img/icons/icon-learning_outcomes_blue.png');
+}
+
+.panel-survey {
+    border-color: #59BDBB;
+}
+
+.panel-survey .panel-heading {
+    background-color: #AAD9D7;
+}
+
+.icon-survey {
+    background-image: url('../img/icons/icon-survey.png');
+}
+
+.panel-activity {
+    border-color: #71A77E;
+}
+
+.panel-activity .panel-heading {
+    background-color: #93C3AA;
+}
+
+.icon-activity {
+    background-image: url('../img/icons/icon-activity.png');
+}
+
+.panel-discussion {
+    border-color: #99BFC2;
+}
+
+.panel-discussion .panel-heading {
+    background-color: #C5D8DA;
+}
+
+.icon-discussion {
+    background-image: url('../img/icons/icon-discussion.png');
+}
+
+.panel-reading {
+    border-color: #6EC7E0;
+}
+
+.panel-reading .panel-heading {
+    background-color: #B3DEEE;
+}
+
+.icon-reading {
+    background-image: url('../img/icons/icon-reading.png');
+}
+
+.panel-assessmentItem {
+    /* border-color: #498192; */
+    border-color: #F08520;
+    /*border-color: #1476B4;*/
+
+    /* border-style: double;*/
+    /*border-width: 7px;*/
+
+    /*-webkit-box-shadow:  0 2px 2px rgba(0, 0, 0, 0.2);*/
+    /*-moz-box-shadow:  0 2px 2px rgba(0, 0, 0, 0.2);*/
+    /*box-shadow:  0 2px 2px rgba(0, 0, 0, 0.2);*/
+
+    /*-webkit-box-shadow: 0px 0px 12px 3px rgba(73, 129, 146, .30);*/
+    /*-moz-box-shadow: 0px 0px 12px 3px rgba(73, 129, 146, .30);*/
+    /*box-shadow: 0px 0px 12px 3px rgba(73, 129, 146, .30);*/
+
+    /*-webkit-box-shadow: 0px 0px 12px 4px rgba(110, 199, 224, .50);*/
+    /*-moz-box-shadow: 0px 0px 12px 4px rgba(110, 199, 224, .50);*/
+    /*box-shadow: 0px 0px 12px 4px rgba(110, 199, 224, .50);*/
+
+    /*-webkit-box-shadow: 0px 0px 12px 4px rgba(255, 200, 0, .40);*/
+    /*-moz-box-shadow: 0px 0px 12px 4px rgba(255, 200, 0, .40);*/
+    /*box-shadow: 0px 0px 12px 4px rgba(255, 200, 0, .40);*/
+}
+
+.panel-assessmentItem .panel-heading {
+    /*background-color: #90BAD3;*/
+    /* border-radius: 0;*/
+    background-color: #F8B97D;
+}
+
+.icon-assessmentItem {
+    /*background-image: url('../img/icons/icon-assessment_item.png');*/
+    /*background-image: url('../img/icons/icon-assessment_item_yellow.png');*/
+    background-image: url('../img/icons/icon-assessment_item_orange.png');
+}
+
+.panel-experiment {
+    border-color: #35495E;
+}
+
+.panel-experiment .panel-heading {
+    background-color: #7E8393;
+}
+
+.icon-experiment {
+    background-image: url('../img/icons/icon-experiment.png');
+}
+
+.panel-reflection {
+    border-color: #72324F;
+}
+
+.panel-reflection .panel-heading {
+    background-color: #A37A89;
+}
+
+.icon-reflection {
+    background-image: url('../img/icons/icon-reflection.png');
+}
+
+.panel-question {
+    border-color: #804996;
+}
+
+.panel-question .panel-heading {
+    background-color: #C9B5D9;
+}
+
+.icon-question {
+    background-image: url('../img/icons/icon-question.png');
+}
+
+.panel-lecture {
+    border-color: #878786;
+}
+
+.panel-lecture .panel-heading {
+    background-color: #EAF0F0;
+}
+
+.icon-lecture {
+    background-image: url('../img/icons/icon-lecture.png');
+}
+
+.panel-thoughtTree {
+    border-color: #7B594C;
+}
+
+.panel-thoughtTree .panel-heading {
+    background-color: #AB9288;
+}
+
+.icon-thoughtTree {
+    background-image: url('../img/icons/icon-thought_tree.png');
+}
+
+.panel-warning {
+    border-color: #F8CB00;
+}
+
+.panel-warning > .panel-heading {
+    background-color: #FCDF86;
+}
+
+.bg-warning {
+    background-color: #FEF4DA;
+}
+
+.panel-info {
+    border-color: #00568A;
+}
+
+.panel-info .panel-heading {
+    background-color: #758FB6;
+}
+
+.bg-info {
+    background-color: #D3D7E7;
+}
+
+.bg-danger {
+    background-color: #F1A7A7;
+}
+
+.caption {
+    color: #999;
+}
+
+/*CALLOUT BOXES*/
+.callout {
+    margin: 20px 0;
+    padding: 20px;
+    border-left: 3px solid #eee;
+}
+
+.callout h4, h5 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.callout-success {
+    background-color: #D8E6B0;
+    border-color: #95C11E;
+}
+
+.callout-success h4,
+.callout-success h5,
+.callout-success strong {
+    color: #636B06;
+}
+
+.icon-attention_positive {
+    background-image: url('../img/icons/icon-attention_positive.png');
+}
+
+.callout-info {
+    background-color: #CBD6E2;
+    border-color: #5D7289;
+}
+
+.callout-info h4,
+.callout-info h5,
+.callout-info strong {
+    color: #1E3A59;
+}
+
+.callout-warning {
+    background-color: #FFE9B7;
+    border-color: #FFB611;
+}
+
+.callout-warning h4,
+.callout-warning h5,
+.callout-warning strong {
+    color: #A67506;
+}
+
+.callout-danger {
+    background-color: #E4A9A6;
+    border-color: #BE1621;
+}
+
+.callout-danger h4,
+.callout-danger h5,
+.callout-danger strong {
+    color: #7F0000;
+}
+
+.icon-attention_negative {
+    background-image: url('../img/icons/icon-attention_negative.png');
+}
+
+#footer .caption {
+    color: #E5E6E8;
+    font-size: .8em;
+}
+
+/* quotes,fancy quotes and citations */
+blockquote {
+    /* over-ride the bootstrap blockquoute styling */
+    border: none !important;
+    font-weight: normal;
+    font-size: inherit;
+}
+
+blockquote.mark {
+    quotes: "\201C" "\201D";
+}
+
+blockquote.mark {
+    font-style: italic;
+    display: inline-block;
+    padding-top: .9em;
+    padding-left: 2.2em;
+    padding-right: 2.2em;
+    padding-bottom: .0em;
+    background: url(../img/quote-open.png) top left no-repeat, url(../img/quote-close.png) bottom right no-repeat;
+}
+
+cite {
+    color: #999;
+    font-size: 0.6em;
+    display: block;
+    margin-top: 0.1em;
+    text-align: right;
+}
+
+blockquote.mark + cite:before {
+    content: "\2014 \2009";
+}
+
