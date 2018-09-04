@@ -1,1 +1,0 @@
-Don't move or delete these images. They are used in the ICB Student Evaluation survey - the limesurvey points to the the url for these images.
