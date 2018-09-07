@@ -1,0 +1,49 @@
+@import url('../../../../../common/vendor/bootstrap/3.2.0/css/bootstrap.css');
+@import url('../../../../common/css/bubble.css');
+@import url('../../../../common/css/callout.css');
+@import url('../../../../common/css/collapsible.css');
+@import url('../../../../common/css/layout.css');
+@import url('../../../../common/css/style.css');
+@import url('../../../../common/css/interactive.css');
+
+body {
+    
+}
+
+#container {
+  margin:0;
+  width:100%;
+}
+
+body > p:first-child{
+  display:none;
+}
+#header > div:first-child{
+  display:none;
+}
+
+#header {
+  height:20 px;
+  padding:0px;
+  background: none;
+  background-color:#FFFFFF;
+}
+
+a.pdf-link{ 
+  width:100px;
+  color: #428bca;
+  display: block;
+  margin-left: 1em;
+  
+  float:right;
+}
+ 
+#tinymce #main {
+
+ border: 4px solid red;
+ padding: 2px;
+}
+#tinymce #header:after {
+ content: "Make sure your page content is inserted inside this red box";
+ color:#FF0000;
+}

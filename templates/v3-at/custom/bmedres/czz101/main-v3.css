@@ -1,0 +1,82 @@
+@import url('../../../../common/vendor/bootstrap/3.2.0/css/bootstrap.css');
+@import url('../../../common/css/bubble.css');
+@import url('../../../common/css/callout.css');
+@import url('../../../common/css/collapsible.css');
+@import url('../../../common/css/layout.css');
+@import url('../../../common/css/style.css');
+@import url('../../../common/css/interactive.css');
+
+body {
+    background-image: url('bioscience-bg.png');
+
+    background-repeat: repeat;
+    background-position: center top;
+    background-color: #385F7F !important;
+}
+.modulebanner{
+  padding:1em;
+  font-size:12pt;
+  position:relative;
+  margin-left: -43px;
+  margin-right: -43px;
+  display: block;
+}
+
+div.modulebanner +*{
+ padding-top:20px;
+ }
+
+
+.modulebanner img{
+ margin-left:-7px;
+ float:left;
+ height:25px;
+}
+
+.modulebanner p{
+ margin-left:25px;
+ margin-bottom:0px;
+ }
+
+
+
+.modulebanner-cell{
+ color:black;
+ background-color: #e0f0de;
+}
+
+.modulebanner-neuron{
+ color:white;
+ background-color: #193a6c;
+}
+
+.modulebanner-blood{
+ color:white;
+ background-color: #960018;
+}
+
+.modulebanner-tissues{
+ color:white;
+ background-color: #A1A3B5;
+}
+
+.modulebanner-integ{
+ color:black;
+ background-color: #E4C9C8;
+}
+
+.modulebanner-endo{
+ color:black;
+ background-color:#FDF6BF;
+}
+
+.modulebanner-musculo{
+ color:black;
+ background-color:#D6D6D6;
+}
+
+
+.modulebanner-intro{
+ color:white;
+ background-color:#666868 ;
+}

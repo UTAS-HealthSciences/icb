@@ -1,0 +1,14 @@
+@import url('../../common/css/main.css');
+
+body {
+    /* Gum */
+    background-color: #A9B1A3;
+}
+
+
+#main > div > h1 {
+	padding-bottom: 9px;
+	margin: 10px 0 20px;
+	border-bottom: 1px solid #ACADAD;
+}
+

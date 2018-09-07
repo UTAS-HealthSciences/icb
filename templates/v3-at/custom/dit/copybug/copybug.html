@@ -1,0 +1,149 @@
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]--><!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]--><!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]--><!--[if gt IE 8]><!--><!DOCTYPE html>
+<html class="no-js">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge,chrome=1">
+    <title>
+        ICB copy to clipboard bug </title>
+    <meta name="description"
+          content="">
+    <meta name="viewport"
+          content="width=device-width">
+    <link rel="stylesheet"
+          href="https://health.utas.edu.au/templates/v3-at/custom/dit/copybug/main-v3.css"
+          type="text/css">
+    <script src="https://health.utas.edu.au/templates/common/vendor/modernizr-2.6.2-respond-1.1.0.min.js"
+            type="text/javascript"></script>
+    <script src="https://health.utas.edu.au/templates/common/vendor/requirejs/2.1.11/require.min.js"
+            data-main="https://health.utas.edu.au/templates/v3-at/common/js/instructions-v3"
+            type="text/javascript"></script>
+</head>
+<body>
+<p></p>
+<!-- [if lt IE 7]><p class="chromeframe">You are using an <strong>outdated</strong> browser. Please
+    <a href="http://browsehappy.com/">upgrade your browser</a>. </p><![endif]-->
+<div id="container" class="container">
+    <div id="header" class="row">
+        <div class="col-xs-12"><img src="https://health.utas.edu.au/templates/v3-at/common/img/logos/UTAS_Watermark_Transparent_smallest.png" alt="UTas logo" name="utas-logo" style="float: right;" />
+            <h1>Interactive Content Builder (ICB)</h1>
+            <h2>Copy to Clipboard bug</h2>
+        </div>
+        <p><a class="pdf-link" href="#">PDF version</a></p>
+    </div>
+    <!-- end header -->
+    <div id="main" class="row">
+        <div class="col-lg-12">
+            <h1>Copy to clipboard button not working?</h1>
+            <p>Some recent updates to both Flash media player (which the copy-to-clipboard button relies upon), and Chrome may be affecting the copy-to-clipboard button for some people.</p>
+            <p>These updates combine together in a couple of different ways, and you may have to try several of the solutions below before the copy-to-clipboard button works again.</p>
+            <h2>&nbsp;</h2>
+            <h2>What has happened</h2>
+            <p>There are three (I think) types of 'Flash' that are in common use:</p>
+            <ul>
+                <li>Flash can be installed directly on your computer</li>
+                <li>A 'Flash plugin' may be installed in your browser</li>
+                <li>Chrome has just introduced its own built-in version of Flash in it's latest browser update.</li>
+            </ul>
+            <p>There are various settings that your browser may use:</p>
+            <ul>
+                <li>Your browser may always be allowed to run Flash wherever it encounters it.</li>
+                <li>Your browser might ask you each time whether or not you want to allow Flash to run</li>
+                <li>Your browser might allow you to run "Important Flash Content"&nbsp;</li>
+                <li>Your browser might allow you to run Flash on particular websites that you've told your browser to trust.</li>
+            </ul>
+            <p>Not all combinations of settings and types of Flash play nicely with the copy to clipboard button.</p>
+            <p></p>
+            <p>In general - we recommend that you install the latest version of Flash on your computer, and set your browser to use the installed version of Flash, rather than a plug-in or the new built-in Flash native to Chrome.</p>
+            <p>&nbsp;</p>
+            <h2>Making the button work again</h2>
+            <p><strong>First:</strong> Update your browser to the latest version, then restart your computer. (In some cases this will fix the problem).</p>
+            <p><strong>Second:</strong> Install the latest version of the Flash player on your computer (if you can).</p>
+            <p style="padding-left: 30px;">You can download the latest version of Flash from the Adobe Flash website at: <a href="https://get.adobe.com/flashplayer/" target="_blank">https://get.adobe.com/flashplayer/</a>. You can download and install Flash for free. Make sure you unselect the optional offers (McAffee Security and TrueKey) before you download - you don't want those!</p>
+            <p><strong>Third:&nbsp;</strong>Set your browser to use the installed version of Flash, and not the plug-in or native version of Flash.&nbsp;<br />&nbsp;</p>
+
+
+            <p>&nbsp;</p>
+            <div class="panel panel-warning">
+                <div class="panel-heading btn collapsed" data-toggle="collapse" data-target="#dit-data-target-component-v3-7-option-2-1487249550178">
+                    <h3 class="panel-title collapse">For Chrome:<span class="glyphicon glyphicon-chevron-down pull-right"> </span></h3>
+                    <h3 class="panel-title">For Chrome:<span class="glyphicon glyphicon-chevron-up pull-right"> </span></h3>
+                </div>
+                <div id="dit-data-target-component-v3-7-option-2-1487249550178" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <p>Type into the address bar (the place where you would usually type a web address), the following, exactly as it appears (no extra 'http://' or 'www' etc.) and press 'enter'.</p>
+                        <pre style="border: 0px; padding: 0px 0px 0px 30px; background: transparent;">chrome://plugins</pre>
+                        <p>Scroll down to the section labelled 'Adobe Flash Player' and <strong>UNTICK<em>&nbsp;</em></strong> the 'Always allowed to run' setting. &nbsp;This will stop Chrome using a plugin or it's built-in version of Flash, and use the version you have installed on your computer.</p>
+                        <p>Now type into the address bar the following:</p>
+                        <pre style="border: 0px; padding: 0px 0px 0px 30px; background: transparent;">chrome://settings</pre>
+                        <p>Scroll to the bottom of the settings and follow the <strong>'Show advanced settings...'</strong> link. This will extend the page, showing more settings.&nbsp;</p>
+                        <p>The first collection of extra settings is headed&nbsp;'Privacy'. &nbsp;Just under this heading is a '<strong>Content&nbsp;settings&hellip;</strong>' button. Click it.&nbsp;</p>
+                        <p>This will open a dialog box. Scroll down the dialog box to the 'Flash' section.</p>
+                        <p>You will be shown three choices here, but the middle choice varies a little &ndash; it will either say:</p>
+                        <ul>
+                            <li>'Detect and run important Flash content (recommended)'<br />or;</li>
+                        </ul>
+                        <ul>
+                            <li>'Ask when a site wants to use Flash'</li>
+                        </ul>
+                        <p>If you are offered the 'Detect and run' option, selecting it should fix the problem.&nbsp;</p>
+                        <p>If you are offered the 'Ask when a site wants to use Flash' option, you have two choices:</p>
+                        <ul>
+                            <li>You could&nbsp;choose 'Allow sites to run Flash', but that is less secure.&nbsp;</li>
+                            <li>Alternatively you can Click the 'Manage exceptions...' button and add both of the following domains to the exceptions sites, with the 'Allow' permission:</li>
+                        </ul>
+<pre style="border: 0px; padding: 0px 0px 0px 30px; background: transparent;">https://health.utas.edu.au
+https://mylo.utas.edu.au</pre>
+                        <p>Click 'done' on the open dialog boxes to set the permissions.</p>
+                        <p>That&nbsp;<em>should</em> fix the problem.</p>
+                    </div>
+                </div>
+            </div>
+            <p>&nbsp;&nbsp;</p>
+            <div class="panel panel-info">
+                <div class="panel-heading btn collapsed" data-toggle="collapse" data-target="#dit-data-target-component-v3-7-option-0-1487249667815">
+                    <h3 class="panel-title collapse">For browsers other than Chrome<span class="glyphicon glyphicon-chevron-down pull-right"> </span></h3>
+                    <h3 class="panel-title">For browsers other than Chrome<span class="glyphicon glyphicon-chevron-up pull-right"> </span></h3>
+                </div>
+                <div id="dit-data-target-component-v3-7-option-0-1487249667815" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <p>Don't. Use Chrome instead.</p>
+                    </div>
+                </div>
+            </div>
+            <p>&nbsp;</p>
+            <h2>"I did all that and the copy button still doesn't work!"&nbsp;and/or<br />"I can't install Flash on my computer"</h2>
+            <p>We have had reports of cases where the copy-to-clipboard didn't work for someone who was using the installed version of Flash, rather than the plug-in. The solution in that case was to allow the plug-in to run. i.e follow the instructions in the "For Chrome" box, but <strong>TICK&nbsp;</strong><em></em>the 'Always allowed to run' setting. &nbsp;The same advice applies to people who do not have permission to install Flash.</p>
+            <p>&nbsp;</p>
+            <div class="callout callout-danger">
+                <h4>Still having problems?</h4>
+                <div class="media">
+                    <div class="pull-left media-object">
+                        <div class="icon-attention_negative">
+                            <p class="zero-height"></p>
+                        </div>
+                        <p class="zero-height"></p>
+                    </div>
+                    <div class="media-body">
+                        <p>If none of these 'solutions' solve your problem with the copy-to-clipboard button, please, please, contact us and we will work with you to troubleshoot the problem.<br />Send and email to <a href="mailto:Digital.Team@utas.edu.au">Digital.Team@utas.edu.au</a>, and we will get in touch with you.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END col-lg-12 --></div>
+    <!--main -->
+    <div id="footer" class="row"><hr />
+        <div class="col-sm-12"></div>
+        <div class="col-lg-12">
+            <p class="caption margin-top">Template provided by the <a href="mailto:digital.team@utas.edu.au">Digital Innovation Team</a></p>
+        </div>
+    </div>
+</div>
+<!-- /container -->
+<p></p>
+</body>
+</html>

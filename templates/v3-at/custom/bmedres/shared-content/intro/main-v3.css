@@ -1,0 +1,213 @@
+@import url('../../../../../common/vendor/bootstrap/3.2.0/css/bootstrap.css');
+@import url('../../../../common/css/bubble.css');
+@import url('../../../../common/css/callout.css');
+@import url('../../../../common/css/collapsible.css');
+@import url('../../../../common/css/layout.css');
+@import url('../../../../common/css/style.css');
+@import url('../../../../common/css/interactive.css');
+
+body {
+    background-image: url('bioscience-bg.png');
+    background-repeat: repeat;
+    background-position: center top;
+    background-color: 	#BEDCD6 !important;
+
+   
+}
+
+#header {
+    color: black;
+    text-align: left;
+    background: #C3E1DB;  /* for IE 6-9 */
+    background: -webkit-linear-gradient(60deg, #C3E1DB 55%, #C8E6E0 45%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(60deg, #C3E1DB 55%, #C8E6E0 45%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(60deg, #C3E1DB 55%, #C8E6E0 45%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(60deg, #C3E1DB 55%, #C8E6E0 45%); /* Standard syntax (must be last) */
+    /*padding:10px;*/
+}
+#header img{
+  height:60px;
+  }
+#header h1{
+padding-top:10px;
+}
+#header img{
+float:right;
+}
+
+a.pdf-link {
+color:black;
+}
+
+.table > tbody > tr> td, .table > tbody > tr> th { 
+vertical-align:middle;
+}
+
+
+.table > tbody > tr> td > table{
+width:100%;
+height:100%
+vertical-align:middle;
+
+}
+
+.table > tbody > tr> td > table > tbody > tr > td.czz102{
+      vertical-align:middle;
+      min-height:50px;
+      padding:10px 10px 10px 0;
+}
+
+
+.table > tbody > tr> td > table > tbody > tr > td.czz102 img{
+	vertical-align:base-line;
+	width:50px;
+	padding:5px;
+}
+
+.table > tbody > tr> td > table > tbody > tr > td.czz102.introduction{
+      background: #C3E1DB;
+      color: black;
+      }
+.table > tbody > tr> td > table > tbody > tr > td.czz102.introduction img{
+      height:50px;
+      
+}
+
+.table > tbody > tr> td > table > tbody > tr > td.czz102.neuroendocrine{
+      background: #5ca790;
+      color: white;
+      }   
+.table > tbody > tr> td > table > tbody > tr > td.czz102.neuroendocrine img{
+      height:40px;
+}
+
+
+
+
+.table > tbody > tr> td > table > tbody > tr > td.czz102.reproductive{
+      background: #9294ba; 
+      color: white;
+      }
+.table > tbody > tr> td > table > tbody > tr > td.czz102.neuroendocrine img{
+      height:40px;
+}
+
+.table > tbody > tr> td > table > tbody > tr > td.czz102.cardiovascular{
+      background: #960018;
+      color: white;
+      }
+.table > tbody > tr> td > table > tbody > tr > td.czz102.respiratory{
+      background: #d8ebff;
+      color: black;
+      }
+.table > tbody > tr> td > table > tbody > tr > td.czz102.renal{
+      background:  #193a6c; 
+      color: white;
+      }      
+.table > tbody > tr> td > table > tbody > tr > td.czz102.digestive{
+      background: #5a1432; 
+      color: white;
+      }
+.table > tbody > tr> td > table > tbody > tr > td.czz102.thermo{
+      background:#ffc999;
+      color: black;
+      }
+
+ 
+
+.czz102-neuroendocrine{
+        
+}
+.czz102-neuroendocrine td.module-icon{
+     color: white;
+            text-align: left;
+    background: #5ca790;
+    background-image:url('https://health.utas.edu.au/templates/v3-at/custom/bmedres/shared-content/neuroendocrine-module/neuroendocrinesystem-white.png');
+    background-size:40px 30px;
+    background-repeat: no-repeat;
+    background-position: center center;
+   
+}
+
+.czz102-reproductive{
+      
+}
+.czz102-reproductive td.module-icon{
+     color: white;
+            text-align: left;
+        background: #9294ba; 
+
+    background-image:url('https://health.utas.edu.au/templates/v3-at/custom/bmedres/shared-content/reproductive-module/reproduction-white.png');
+    background-size:40px 30px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    }
+
+.czz102-cardivascular{
+     
+}
+.czz102-cardiovascular td.module-icon{
+	color: white;
+        text-align: left;
+    background: #960018;  
+    background-image:url('https://health.utas.edu.au/templates/v3-at/custom/bmedres/shared-content/cardio-module/hearticon.png');
+    background-size:30px 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+     
+}
+
+.czz102-respiratory{
+      
+}
+.czz102-respiratory td.module-icon{
+ color: black;
+        text-align: left;
+    background: #d8ebff;
+    background-image:url('https://health.utas.edu.au/templates/v3-at/custom/bmedres/shared-content/respiratory-module/lungs-black.png');
+    background-size:30px 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+     
+}
+.czz102-digestive{
+     
+}
+.czz102-digestive td.module-icon{
+ color: white;
+        text-align: left;
+    background: #5a1432; 
+    background-image:url('https://health.utas.edu.au/templates/v3-at/custom/bmedres/shared-content/digestive-module/digestive-white.png');
+    background-size:50px 50px;
+    background-repeat: no-repeat;
+    background-position: center center;
+     
+}
+
+.czz102-thermo{
+       
+}
+.czz102-thermo td.module-icon{
+   color: black
+           text-align: left;
+    background: #ffc999; 
+   background-image:url('https://health.utas.edu.au/templates/v3-at/custom/bmedres/shared-content/thermo-module/thermoregulation-black.png');
+    background-size:50px 50px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+.czz102-renal{
+       
+}
+.czz102-renal td.module-icon{
+ color: white
+        text-align: left;
+    background: #193a6c; 
+    background-image:url('https://health.utas.edu.au/templates/v3-at/custom/bmedres/shared-content/renal-module/kidney.png');
+    background-size:50px 50px;
+    background-repeat: no-repeat;
+    background-position: center center;
+   
+}

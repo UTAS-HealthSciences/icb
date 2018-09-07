@@ -1,0 +1,78 @@
+@import url('../../../../common/vendor/bootstrap/3.2.0/css/bootstrap.css');
+@import url('../../../common/css/bubble.css');
+@import url('../../../common/css/callout.css');
+@import url('../../../common/css/collapsible.css');
+@import url('../../../common/css/layout.css');
+@import url('../../../common/css/style.css');
+@import url('../../../common/css/interactive.css');
+/*@import url('xbr104.css'); */
+
+body {
+    background-image: url('xbr-background.png');
+
+    background-repeat: repeat;
+    background-position: center top;
+    background-color: #c4aac4 !important;
+}
+
+
+
+
+
+
+
+#header h1 {
+    font-family: "omnes-pro", sans-serif;
+    /*margin-top: .2em;*/
+    /*margin-bottom: 0.2em;*/
+    font-size: 2em;
+    font-weight: 300;        
+}
+
+/* use purple backgound for header instead of usual grey */
+
+#header{
+    padding: 10px;
+ 	color: white;
+    text-align: left;
+    background: #2B1635;
+    background: -webkit-linear-gradient(60deg, #241530 55%, #2B1635 45%);
+    background: -o-linear-gradient(60deg, #241530 55%, #2B1635 45%);
+    background: -moz-linear-gradient(60deg, #241530 55%, #2B1635 45%);
+    background: linear-gradient(60deg, #241530 55%, #2B1635 45%);
+
+
+}
+
+/* replace Utas logo with vclp logo */
+
+#header img {display:none;}
+
+#header h1:before{
+	display:block;
+	  float:right;
+	  content: url(https://health.utas.edu.au/templates/v3-at/custom/breadth/xbr110/vclp-80.png);
+	  height:100px;
+	  width:100px;	
+
+}
+
+#footer .caption{
+	color:#666868;
+}
+
+/* prevent students from clicking mailto link in footer */
+
+#footer a {
+	pointer-events:none;
+	cursor:default;
+	}
+
+/* hide second image in footer */
+
+#footer img:nth-of-type(2){
+display:none;
+}
+
+
+   

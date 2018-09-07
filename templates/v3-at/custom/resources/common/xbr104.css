@@ -1,0 +1,171 @@
+iframe{
+	width;100%;
+	height:100%;
+}
+
+.panel-xbr104{
+	border-color:#26A2A5;
+	width:91px;
+	padding:1px;
+	position:fixed;
+	right:0;
+	top:44px;
+	z-index:40;
+}
+
+.xbr104 {
+    font-size:8px;
+    color:#26A2A5;
+    display:block;
+    clear:right;
+    padding-bottom:15px;
+    margin:auto;
+    width:91px;
+    text-align:center;
+}
+
+
+
+.learning-toolbox{
+	display: none;
+	width: 91px;
+}
+
+.icon-toolbox-show:before{
+   content: url('tool-icons/icon-show-tools.png');
+   display: inline-block;
+}
+
+.icon-toolbox-hide:before{
+   content: url('tool-icons/icon-hide-tools.png');
+   display: inline-block;
+}
+
+#toolbox-toggle-show button,
+#toolbox-toggle-hide button 
+{
+    padding-left:1px;
+    padding-right:1px;
+    border-width: 1.818px;
+}
+
+.icon-integrity:before{
+    content: url('tool-icons/academic-integrity-icon.png');
+    display: inline-block;
+}
+
+@media print {
+    .icon-integrity:before {
+        content: url(tool-icons/academic-integrity-icon.png);
+    }
+}
+
+
+.icon-referencing:before{
+    content: url('tool-icons/academic-referencing-icon.png');
+    display: inline-block;
+}
+
+@media print {
+    .icon-referencing:before {
+        content: url(tool-icons/academic-referencing-icon.png);
+    }
+}
+
+
+.icon-writing:before{
+    content: url('tool-icons/academic-writing-icon.png');
+    display: inline-block;
+}
+
+@media print {
+    .icon-writing:before {
+        content: url(tool-icons/academic-writing-icon.png);
+    }
+}
+
+
+.icon-analysis:before{
+    content: url('tool-icons/critical-analysis-icon.png');
+    display: inline-block;
+}
+
+@media print {
+    .icon-analysis:before {
+        content: url(tool-icons/critical-analysis-icon.png);
+    }
+}
+
+
+.icon-verbs:before{
+    content: url('tool-icons/directive-verbs-icon.png');
+    display: inline-block;
+}
+
+@media print {
+    .icon-verbs:before {
+        content: url(tool-icons/directive-verbs-icon.png);
+    }
+}
+
+
+.icon-discipline:before{
+    content: url('tool-icons/my-academic-discipline-icon.png');
+    display: inline-block;
+}
+
+@media print {
+    .icon-discipline:before {
+        content: url(tool-icons/my-academic-discipline-icon..png);
+    }
+}
+
+
+.icon-online-learning:before{
+    content: url('tool-icons/online-learning-and-using-mylo-icon.png');
+    display: inline-block;
+}
+
+@media print {
+    .icon-online-learning:before {
+        content: url(tool-icons/online-learning-and-using-mylo-icon.png);
+    }
+}
+
+
+.icon-summarising:before{
+    content: url('tool-icons/reading-and-summarising-icon.png');
+    display: inline-block;
+}
+
+@media print {
+    .icon-summarising:before {
+        content: url(tool-icons/reading-and-summarising-icon.png);
+    }
+}
+
+
+.icon-awareness:before{
+    content: url('tool-icons/self-awareness-and-reflection-icon.png');
+    display: inline-block;
+}
+
+@media print {
+    .icon-awareness:before {
+        content: url(tool-icons/self-awareness-and-reflection-icon.png);
+    }
+}
+
+
+.icon-using-eportfolio:before{
+    content: url('tool-icons/using-an-electronic-portfolio-icon.png');
+    display: inline-block;
+}
+
+@media print {
+    .icon-using-eportfolio:before {
+        content: url(tool-icons/using-an-electronic-portfolio-icon.png);
+    }
+}
+
+

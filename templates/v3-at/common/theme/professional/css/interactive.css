@@ -1,0 +1,75 @@
+.ui-sortable-handle {
+    cursor: move;
+}
+
+.dit-drag-drop-group {
+    min-height: 35px;
+}
+
+.dit-tab-panel .tab-container {
+    margin-left: -1px;
+    margin-right: -1px;
+    margin-bottom: -1px;
+}
+
+.dit-tab-panel .nav-tabs.nav-justified > li:first-child > a {
+    border-bottom-left-radius: 4px;
+}
+
+.dit-tab-panel .nav-tabs.nav-justified > li:last-child > a {
+    border-bottom-right-radius: 4px;
+}
+
+.dit-tab-panel .nav-tabs > li > a {
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+.dit-tab-panel .nav-tabs > li > a {
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+.dit-tab-panel .nav-tabs > li.active > a, .dit-tab-panel .nav-tabs > li.active ~ li > a {
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.dit-tab-panel .tab-pane {
+    padding: 15px;
+}
+
+#tinymce .dit-tab-panel .tab-pane {
+    display: block; !important;
+}
+
+#tinymce .dit-tab-panel .tab-pane.dit-tab-1:before {
+    content: 'Tab 1';
+}
+
+#tinymce .dit-tab-panel .tab-pane.dit-tab-2:before {
+    content: 'Tab 2';
+}
+
+#tinymce .dit-tab-panel .tab-pane.dit-tab-3:before {
+    content: 'Tab 3';
+}
+
+#tinymce .dit-tab-panel .tab-pane.dit-tab-4:before {
+    content: 'Tab 4';
+}
+
+#tinymce .dit-tab-panel .tab-pane:before {
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#tinymce .dit-tab-panel .tab-pane p {
+    border: 1px solid #ddd;
+    min-height: 35px;
+}

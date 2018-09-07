@@ -1,0 +1,386 @@
+@import url('https://health.utas.edu.au/templates/v3-at/vendor/bootstrap/3.2.0/css/bootstrap.css');
+@import url('https://health.utas.edu.au/templates/v3-at/common/css/font.css');
+@import url('https://health.utas.edu.au/templates/v3-at/common/css/bubble.css');
+@import url('https://health.utas.edu.au/templates/v3-at/common/css/callout.css');
+@import url('https://health.utas.edu.au/templates/v3-at/common/css/collapsible.css');
+@import url('https://health.utas.edu.au/templates/v3-at/common/css/layout.css');
+@import url('https://health.utas.edu.au/templates/v3-at/common/css/style.css');
+@import url('https://health.utas.edu.au/templates/v3-at/common/css/interactive.css');
+
+/* these addressess have to be absolute rather than relative becuase the relative address changes depending upon whether this file is pointed to directly or via a symbolic link */
+body {
+    background-image: url('https://health.utas.edu.au/templates/v3-at/custom/wicking/_common/img/background/bg-tile-triangles-trans-170.png');
+    background-repeat: repeat;
+    background-position: center top;
+    font-size: 1.7em;
+}
+
+/* Unfortunately when in the editor, tinyMCE replaces the body element with it's own body element,                   */
+/* and classes on the body element are not added to the tinyMCE body element (although inline styles are).           */
+/* As a result, when in the editor, the background colour disappears, becuase the class is set on the                */
+/* document body and that class disappears when in the editor.                                                       */    
+/* A work-around is to put in a default background colour that will show when there isn't a more specific background */
+
+/*defualt background for when editing */
+body {
+   background-color: #666666;
+}
+
+
+body.CAD001 {
+    background-color: #abcb8b !important;
+}
+body.CAD002 {
+    background-color: #8bcbcb !important;
+}
+body.CAD003 {
+    background-color: #8b8bcb !important;
+}
+body.CAD004 {
+    background-color: #cb8bbb !important;
+}
+body.CAD101 {
+    background-color: #8bc0cb !important;
+}
+body.CAD102 {
+    background-color: #8bcb8b !important;
+}
+body.CAD103 {
+    background-color: #9b8bcb !important;
+}
+body.CAD104 {
+    background-color: #cb8b8b !important;
+}
+body.CAD110 {
+    background-color: #cbcb8b !important;
+}
+body.CAD113 {
+    background-color: #ab8bcb !important;
+}
+body.CAD201 {
+    background-color: #cb9b8b !important;
+}
+body.CAD202 {
+    background-color: #9bcb8b !important;
+}
+body.CAD203 {
+    background-color: #8babcb !important;
+}
+body.CAD204 {
+    background-color: #cb8bcb !important;
+}
+body.CAD205 {
+    background-color: #697ccb !important;
+}
+body.CAD301 {
+    background-color: #cbb267 !important;
+}
+body.CAD302 {
+    background-color: #67cb99 !important;
+}
+body.CAD303 {
+    background-color: #b267cb !important;
+}
+body.CAD304 {
+    background-color: #cb8067 !important;
+}
+body.CAD305 {
+    background-color: #cbcb67 !important;
+}
+body.CAD306 {
+    background-color: #9967cb !important;
+}
+body.CAD307 {
+    background-color: #99cb67 !important;
+}
+body.CAD308 {
+    background-color: #6799cb !important;
+}
+body.commonroom {
+    background-color: #a69de2 !important;
+}
+body.researchroom {
+    background-color: #d0e29d !important;
+}
+body.dev {
+    background-color: #e86b28 !important;
+}
+#header h1 {
+    font-family: "omnes-pro", sans-serif;
+    /*margin-top: .2em;*/
+    /*margin-bottom: 0.2em;*/
+
+    font-size: 2em;
+    font-weight: 300;
+}
+#header {
+    padding: 10px;
+}
+#footer .caption {
+    color: #666868;
+}
+.icon-learningOutcomes {
+    display: inline-block;
+}
+#main h1,
+#main h2,
+#main h3 {
+    border-bottom-color: #ACADAD;
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: 1px solid #eee;
+}
+#main .panel h1,
+#main .panel h2,
+#main .panel h3,
+#main h1.plain,
+#main h2.plain,
+#main h3.plain {
+    padding-bottom: 0px;
+    margin: 0px;
+    border-bottom: none;
+}
+.speech {
+    position: relative;
+    margin: 1em;
+    padding: 1.2em;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 1.2em
+}
+
+.speech p.speaker {
+    font-size: 1.4em;
+    margin: .4em;
+    color: gray
+}
+
+.speech:after,.speech:before {
+    border-width: 19px;
+    position: absolute;
+    content: '';
+    display: block;
+    border-style: solid
+}
+
+.speech:after {
+    border-width: 19px;
+    border-color: #fff
+}
+
+.speech.blue,.speech.blue:before {
+    border-color: #585aa8
+}
+
+.speech.red,.speech.red:before {
+    border-color: #cd5257
+}
+
+.speech.grey,.speech.grey:before {
+    border-color: gray
+}
+
+.speech.green,.speech.green:before {
+    border-color: green
+}
+
+.speech.purple,.speech.purple:before {
+    border-color: purple
+}
+
+.speech-top-center,.speech-top-left,.speech-top-right {
+    margin-top: 70px
+}
+
+.speech-top-left:before {
+    left: 60px;
+    top: -40px
+}
+
+.speech-top-left:after,.speech-top-left:before {
+    border-top-color: transparent !important;
+    border-right-color: transparent !important
+}
+
+.speech-top-left:after {
+    left: 63px;
+    top: -32px
+}
+
+.speech-top-left p.speaker {
+    text-align: left
+}
+
+.speech-top-right:before {
+    right: 60px;
+    top: -40px
+}
+
+.speech-top-right:after,.speech-top-right:before {
+    border-top-color: transparent !important;
+    border-left-color: transparent !important
+}
+
+.speech-top-right:after {
+    right: 63px;
+    top: -32px
+}
+
+.speech-top-right p.speaker {
+    text-align: right
+}
+
+.speech-top-center:before {
+    top: -30px
+}
+
+.speech-top-center:after,.speech-top-center:before {
+    border-width: 0 28px 28px;
+    margin-left: -28px;
+    left: 50%;
+    border-top-color: transparent !important;
+    border-left-color: transparent !important;
+    border-right-color: transparent !important
+}
+
+.speech-top-center:after {
+    width: 0;
+    z-index: 1;
+    top: -26px
+}
+
+.speech-top-center p.speaker {
+    text-align: center
+}
+
+.speech-bottom-center,.speech-bottom-left,.speech-bottom-right {
+    margin-bottom: 50px
+}
+
+.speech-bottom-left:before {
+    left: 60px;
+    bottom: -40px
+}
+
+.speech-bottom-left:after,.speech-bottom-left:before {
+    border-bottom-color: transparent !important;
+    border-right-color: transparent !important
+}
+
+.speech-bottom-left:after {
+    left: 63px;
+    bottom: -32px
+}
+
+.speech-bottom-left p.speaker {
+    text-align: left
+}
+
+.speech-bottom-right:before {
+    right: 60px;
+    bottom: -40px
+}
+
+.speech-bottom-right:after,.speech-bottom-right:before {
+    border-bottom-color: transparent !important;
+    border-left-color: transparent !important
+}
+
+.speech-bottom-right:after {
+    right: 63px;
+    bottom: -32px
+}
+
+.speech-bottom-right p.speaker {
+    text-align: right
+}
+
+.speech-bottom-center:before {
+    bottom: -30px
+}
+
+.speech-bottom-center:after,.speech-bottom-center:before {
+    margin-left: -28px;
+    left: 50%;
+    border-top-width: 28px;
+    border-bottom-width: 0;
+    border-left-width: 28px;
+    border-right-width: 28px;
+    border-bottom-color: transparent !important;
+    border-left-color: transparent !important;
+    border-right-color: transparent !important
+}
+
+.speech-bottom-center:after {
+    width: 0;
+    z-index: 1;
+    bottom: -26px
+}
+
+.speech-bottom-center p.speaker {
+    text-align: center
+}
+
+.speech-left-top:before {
+    left: -30px
+}
+
+.speech-left-top:after,.speech-left-top:before {
+    top: 1.4em;
+    border-width: 28px 28px 28px 0;
+    border-top-color: transparent !important;
+    border-bottom-color: transparent !important
+}
+
+.speech-left-top:after {
+    left: -26px;
+    border-left-color: transparent !important
+}
+
+.speech-left p.speaker {
+    text-align: left
+}
+
+.speech-right-top:before {
+    right: -30px
+}
+
+.speech-right-top:after,.speech-right-top:before {
+    top: 1.4em;
+    border-width: 28px 0 28px 28px;
+    border-top-color: transparent !important;
+    border-bottom-color: transparent !important
+}
+
+.speech-right-top:after {
+    right: -26px;
+    border-right-color: transparent !important
+}
+
+.speech-right p.speaker {
+    text-align: right
+}
+
+
+table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+th, td {
+    text-align: left;
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border: 1px solid #ddd;
+}
+th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #ddd;
+}
+
+li.list-group-item td {
+ border:none;
+}

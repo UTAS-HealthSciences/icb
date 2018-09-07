@@ -1,0 +1,17 @@
+@import url('../../../../vendor/bootstrap/3.2.0/css/bootstrap.css');
+@import url('../../../css/bubble.css');
+@import url('../../../css/callout.css');
+@import url('../../../css/collapsible.css');
+@import url('layout.css');
+@import url('style.css');
+@import url('../../../css/interactive.css');
+
+body {
+    background-image: url('../../../img/cxa004_texture_50.png');
+
+    background-repeat: repeat;
+    background-position: center top;
+    background-color: #CFD9B2;
+}
+
+

@@ -1,0 +1,31 @@
+@import url('../../../../../common/vendor/bootstrap/3.2.0/css/bootstrap.css');
+@import url('../../../../common/css/bubble.css');
+@import url('../../../../common/css/callout.css');
+@import url('../../../../common/css/collapsible.css');
+@import url('../../../../common/css/layout.css');
+@import url('../../../../common/css/style.css');
+@import url('../../../../common/css/interactive.css');
+
+body {
+    background-image: url('riawunna-tile-big.png');
+
+    background-repeat: repeat;
+    background-position: center top;
+    background-color: #C3A8A8 !important;
+}
+
+
+/* hack to replace UTAS logo with UC logo, courtesy of https://css-tricks.com/replace-the-image-in-an-img-with-css/ 
+
+
+#header img:first-of-type {
+ dispaly:block;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+ background: url('../../uc-logo-vert4.png') no-repeat;
+ background-size: 97px 120px;
+ width: 97px;
+ height: 120px;
+ padding-left:97px;
+}
+*/

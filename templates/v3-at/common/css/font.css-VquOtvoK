@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'proxima-nova';
+    src: url('../fonts/Mark%20Simonson%20-%20Proxima%20Nova%20Alt%20Semibold%20Italic.eot');
+    src: url('../fonts/Mark%20Simonson%20-%20Proxima%20Nova%20Alt%20Semibold%20Italic.eot') format('embedded-opentype'),
+    url('../fonts/Mark%20Simonson%20-%20Proxima%20Nova%20Alt%20Semibold%20Italic.ttf')  format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'proxima-nova';
+    src: url('../fonts/Mark%20Simonson%20-%20Proxima%20Nova%20Alt%20Semibold%20Italic.eot');
+    src: url('../fonts/Mark%20Simonson%20-%20Proxima%20Nova%20Alt%20Semibold%20Italic.eot') format('embedded-opentype'),
+    url('../fonts/Mark%20Simonson%20-%20Proxima%20Nova%20Alt%20Semibold%20Italic.ttf')  format('truetype');
+    font-weight: bold;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'proxima-nova';
+    src: url('../fonts/Mark%20Simonson%20-%20Proxima%20Nova%20Alt%20Light.eot');
+    src: url('../fonts/Mark%20Simonson%20-%20Proxima%20Nova%20Alt%20Light.eot') format('embedded-opentype'),
+    url('../fonts/Mark%20Simonson%20-%20Proxima%20Nova%20Alt%20Light.ttf')  format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima-nova';
+    src: url('../fonts/Mark%20Simonson%20-%20Proxima%20Nova%20Alt%20Light%20Italic.eot');
+    src: url('../fonts/Mark%20Simonson%20-%20Proxima%20Nova%20Alt%20Light%20Italic.eot') format('embedded-opentype'),
+    url('../fonts/Mark%20Simonson%20-%20Proxima%20Nova%20Alt%20Light%20Italic.ttf')  format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'proxima-nova';
+    src: url('../fonts/Mark%20Simonson%20-%20Proxima%20Nova%20Alt%20Semibold.eot');
+    src: url('../fonts/Mark%20Simonson%20-%20Proxima%20Nova%20Alt%20Semibold.eot') format('embedded-opentype'),
+    url('../fonts/Mark%20Simonson%20-%20Proxima%20Nova%20Alt%20Semibold.ttf')  format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rockwell';
+    src: url("../fonts/RockwellStd.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Rockwell';
+    src: url("../fonts/RockwellStd-Bold.otf") format("opentype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rockwell';
+    src: url("../fonts/RockwellStd-Italic.otf") format("opentype");
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Rockwell';
+    src: url("../fonts/RockwellStd-Italic.otf") format("opentype");
+    font-weight: normal;
+    font-style: oblique;
+}
+@font-face {
+    font-family: 'Rockwell';
+    src: url("../fonts/RockwellStd-BoldItalic.otf") format("opentype");
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Rockwell';
+    src: url("../fonts/RockwellStd-BoldItalic.otf") format("opentype");
+    font-weight: bold;
+    font-style: oblique;
+}
+
+/* load the font-awesome fonts? */
+@import url('../../vendor/fontawesome/4.1.0/css/font-awesome.min.css');
+
+

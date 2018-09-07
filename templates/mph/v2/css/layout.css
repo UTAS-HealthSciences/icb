@@ -1,0 +1,136 @@
+.caption {
+    text-align: center;
+}
+
+.margin-left{
+    margin-left: 1em;
+}
+
+.margin-right{
+    margin-right: 1em;
+}
+
+.margin-bottom{
+    margin-bottom: 1em;
+}
+
+.margin-top{
+    margin-top: 1em;
+}
+
+#main {
+    /*padding: 2em;*/
+
+    /*border: 1px solid  #005f7d;*/
+    background-color: #fff;
+}
+
+#footer {
+    /*padding: 2em;*/
+    /*border: 1px solid  #005f7d;*/
+    background-color: #fff;
+}
+
+.media-object {
+    width: 64px;
+    height: auto;
+}
+
+/*panel colour overwrites*/
+
+/*.panel {*/
+/*margin-left: 8em;*/
+/*margin-right: 8em;*/
+/*}*/
+
+
+ /*VIDEO*/
+
+
+
+.vid-splash {
+    cursor: pointer;
+    border: 1px #666666 solid;
+    width: 100%;
+}
+
+.youtube > img,
+.youtube > iframe {
+    border: 1px solid #d4d4d4;
+    max-width: 620px;
+    max-height: 350px;
+}
+
+.echo {
+
+}
+
+.pull-left.thumbnail {
+margin-right:1em;
+}
+
+.pull-right.thumbnail {
+margin-left:1em;
+}
+
+/* image responsive */
+.pull-left.thumbnail img,
+.media-object img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* COLLAPSIBLE PANELS */
+.panel-heading .glyphicon {
+    display: none;
+}
+
+/*overwrite default button styles*/
+.panel-heading.btn {
+    display: block;
+    font-weight: 400;
+    text-align: left;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    line-height: 20px;
+    border: 0;
+    border-bottom: 1px solid transparent;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/*.panel-heading:hover .glyphicon {*/
+/*display:block;*/
+/*
+}
+*/
+
+.panel-heading .glyphicon {
+    display: block;
+}
+
+.panel-heading.collapsed .panel-title,
+.panel-heading .panel-title.collapse {
+    display: none;
+}
+
+.panel-heading.collapsed .panel-title.collapse,
+.panel-heading .panel-title {
+    display: block;
+}
+
+#tinymce .panel-heading .panel-title {
+    /* this is so that both titles can be seen and edited in edit mode. */
+    display: block !important;
+}

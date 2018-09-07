@@ -1,0 +1,183 @@
+<html>
+	<head>
+		<style>
+			.pLabel {
+				min-width:110px;
+				display: inline-block;
+				margin-bottom:6px;
+			}
+			
+			.pButton {
+				width: 60px;
+				display: block;
+				cursor: pointer;
+				border: 1px solid;
+				text-align: center;
+				padding: 6px;
+			}
+		</style>
+		
+		<script src="js/clipboard.js"></script>
+		<script type="text/javascript">
+			
+			
+			function listAdd()
+			{
+				var code = document.getElementById("code").value;
+				var name = document.getElementById("name").value;
+				var start = document.getElementById("start").value;
+				var end = document.getElementById("end").value;
+				var due = document.getElementById("due").value;
+				var standard = document.getElementById("standard").value;
+				
+				html = "<li class='assessment'><span class='code'>"+code+"</span>, <span class='name'>"+name+"</span>, <span class='start'>"+start+"</span>, <span class='end'>"+end+"</span>, <span class='due'>"+due+"</span>, <span class='standard'>"+standard+"</span>";
+				
+				document.getElementById("portfolioTarget").innerHTML = document.getElementById("portfolioTarget").innerHTML+html;
+				
+				
+			}
+			
+			function finalise()
+			{
+				// Get list of elements
+				// Build the portfolio, will this even work?!
+				// We shall see
+				// Then Edit in Copy Button
+				
+				var assessmentItems = document.getElementsByClassName("assessment");
+				var codes = document.getElementsByClassName("code");
+				var names = document.getElementsByClassName("name");
+				var starts = document.getElementsByClassName("start");
+				var ends = document.getElementsByClassName("end");
+				var dues = document.getElementsByClassName("due");
+				var standards = document.getElementsByClassName("standard");
+				var assessmentList = "tasks = [";
+				
+				for (i = 0; i < assessmentItems.length; i++)
+				{
+					assessmentList = assessmentList+"{ ";
+					
+					assessmentList = assessmentList+"id: '"+codes[i].innerHTML+"',";
+					assessmentList = assessmentList+"title: '"+names[i].innerHTML+"',";
+					assessmentList = assessmentList+"start: '"+starts[i].innerHTML+"',";
+					assessmentList = assessmentList+"end: '"+ends[i].innerHTML+"',";
+					assessmentList = assessmentList+"due: '"+dues[i].innerHTML+"',";
+					assessmentList = assessmentList+"comment: '"+standards[i].innerHTML;
+					
+					assessmentList = assessmentList+"' }";
+					
+					if (i < assessmentItems.length-1)
+					{
+						assessmentList = assessmentList+",";
+					}
+				}
+				
+				assessmentList = assessmentList+"];";
+				
+				
+				document.getElementById("portfolioTarget").innerHTML = assessmentList;
+				
+			}
+			
+		</script>
+		
+		<title>Portfolio Generation Tool</title>
+	</head>
+
+	<body>
+		<h2>Portfolio Generation Tool</h2>
+		
+		<hr/>
+		<p>To build a student portfolio tailored to a unit, please input the following information for each assignment to be submitted:</p>
+		<ul>
+			<li><strong><u>Task Code</u></strong> - A short "code" to assign to the task (e.g. <strong>1.1PP</strong>, <strong>4.4CR</strong>)</li>
+			<li><strong><u>Task name</u></strong> - A fullname for the task (e.g. <strong>Getting Prepared</strong>, <strong>Written Assessment 2</strong>)</li>
+			<li><strong><u>Start Week</u></strong> - the week (from 1-13) that students are intended to begin the task</li>
+			<li><strong><u>End Week</u></strong> - the week (from 1-13) that the task "ends"</li>
+			<li><strong><u>Due Date</u></strong> - the week (from 1-13) that the task is due for submission</li>
+			<li><strong><u>Standard</u></strong> - The standard to which this task belongs (e.g. <strong>PP</strong>, <strong>HD</strong>)</li>
+		</ul>
+		<p>After filling out an assessment item, click "add". After you have finished adding all assessment items, click the "finalise and copy" button to copy to clipboard, ready to be placed into a MyLO page.</p>
+		<hr/>
+		
+		<form>
+			<span class="pLabel">Task Code:</span> <input type="text" id="code"><br/>
+			<span class="pLabel">Task Name:</span> <input type="text" id="name"><br/>
+			
+			<span class="pLabel">Start Week:</span> 
+			<select id="start">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+				<option value="13">13</option>
+			</select>
+			<br/>
+			
+			<span class="pLabel">End Week:</span> 
+			<select id="end">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+				<option value="13">13</option>
+			</select>
+			<br/>
+			
+			<span class="pLabel">Due Date:</span> 
+			<select id="due">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+				<option value="13">13</option>
+			</select>
+			<br/>
+			
+			<span class="pLabel">Standard:</span> 
+			<select id="standard">
+				<option value="PP">PP</option>
+				<option value="CR">CR</option>
+				<option value="DN">DN</option>
+				<option value="HD">HD</option>
+			</select>
+			<br/>
+		</form>
+		<a class="pButton" onclick="listAdd();">Add</a>
+		<hr/>
+		
+		<ul id="portfolioTarget">
+			
+		</ul>
+		<hr/>
+		
+		<a class="pButton" onclick="finalise();">Finalise</a>
+		
+		<div id="copyButtonTarget"></div>
+		
+	</body>
+</html>

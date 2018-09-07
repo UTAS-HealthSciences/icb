@@ -1,0 +1,106 @@
+/* COLLAPSIBLE PANELS */
+.panel-heading .glyphicon {
+    display: none;
+    margin-top: -20px;
+}
+
+/*overwrite default button styles*/
+.panel-heading.btn {
+    display: block;
+    font-weight: 400;
+    text-align: left;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    line-height: 20px;
+    border: 0;
+    border-bottom: 1px solid transparent;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.panel-heading .glyphicon {
+    display: block;
+    /*font-size: 12px;*/
+}
+
+.panel-heading.collapsed .panel-title,
+.panel-heading .panel-title.collapse {
+    display: none;
+}
+
+.panel-heading.collapsed .panel-title.collapse,
+.panel-heading .panel-title {
+    display: block;
+}
+
+#tinymce .panel-heading .panel-title {
+    /* this is so that both titles can be seen and edited in edit mode. */
+    display: block !important;
+    cursor: text;
+}
+
+#tinymce .panel-collapse.collapse {
+    display: block;
+    height: auto !important;
+}
+
+#tinymce .panel-heading.btn{
+    /*allow heading to be edited in tinymce*/
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}
+
+
+@media print {
+	/* print expandable panels as expanded */
+
+	/* don't print the "expanded" panel tilte (it'll often say something meaningless like "hide this" */	
+	.panel-heading.btn[data-toggle="collapse"] .panel-title.collapse+.panel-title{
+		display:none;
+	}
+	
+	/*do print the "collapsed" panel title */
+	.panel-heading.btn[data-toggle="collapse"] .panel-title.collapse{
+		display: block !important;
+	}
+	
+	
+	/* print the panel content */	
+	
+	
+	
+	.panel-collapse.collapse {
+	    display: block;
+	    height: auto !important;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html.firefox .panel-heading.btn .glyphicon {
+    /*firefox fix (uses modernizr)*/
+    top: -1em;
+}

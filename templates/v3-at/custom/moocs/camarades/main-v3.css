@@ -1,0 +1,58 @@
+@import url('../../../../common/vendor/bootstrap/3.2.0/css/bootstrap.css');
+@import url('../../../common/css/bubble.css');
+@import url('../../../common/css/callout.css');
+@import url('../../../common/css/collapsible.css');
+@import url('../../../common/css/layout.css');
+@import url('../../../common/css/style.css');
+@import url('../../../common/css/interactive.css');
+@import url('../../../common/fonts/latoweb/latofonts.css');
+
+
+body {
+    background-image: url('gp-bg-35-400.png');
+
+    background-repeat: repeat;
+    background-position: center top;
+    background-color: #D6DAE5 !important;   
+}
+
+#container{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 175%;
+}
+
+a.pdf-link{
+	text-align: center;
+	display: block;
+	width:10em;
+	-moz-box-shadow: inset 0px 1px 0px 0px #5E6066;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #5E6066; 
+	box-shadow: inset 0px 1px 0px 0px #5E6066; 
+	background: -moz-linear-gradient( center top, #5E6066 5%, #5E6066 100% );
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5E6066', endColorstr='#5E6066');
+	background-color: #5E6066; 
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #5E6066;
+	color: #ffffff;
+	font-family: arial;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 6px 6px;
+	text-decoration: none;
+	text-shadow: 1px 1px 0px #5E6066;
+}
+
+@media print{
+ 	a.pdf-link{
+ 		display:none;
+ 	}
+}
+
+#footer{
+padding:15px;
+	background: #FFFFFF;
+}

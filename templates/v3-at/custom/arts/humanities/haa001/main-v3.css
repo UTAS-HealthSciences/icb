@@ -1,0 +1,183 @@
+@import url('../../../../../common/vendor/bootstrap/3.2.0/css/bootstrap.css');
+@import url('../../../../common/css/bubble.css');
+@import url('../../../../common/css/callout.css');
+@import url('../../../../common/css/collapsible.css');
+@import url('../../../../common/css/layout.css');
+@import url('./stylesheet.css');
+@import url('../../../../common/css/style.css');
+@import url('../../../../common/css/interactive.css');
+
+
+body {
+   /* background-image: url('disc-asia.png');*/
+    background-repeat: repeat;
+    background-position: center top;
+    background-color: #FFFFFF;
+}
+
+
+/* over-rides of the arts stylesheet for the header */
+
+#header {
+/*    text-align: left; */
+/*    background: #616363;  /* for IE 6-9 */
+/*    background: -webkit-linear-gradient(60deg, #616363 55%, #666868 45%); /* For Safari 5.1 to 6.0 */
+/*    background: -o-linear-gradient(60deg, #616363 55%, #666868 45%); /* For Opera 11.1 to 12.0 */
+/*    background: -moz-linear-gradient(60deg, #616363 55%, #666868 45%); /* For Firefox 3.6 to 15 */
+/*    background: linear-gradient(60deg, #616363 55%, #666868 45%); /* Standard syntax (must be last) */
+    /*padding:10px;*/
+
+}
+#header h1, #header img, #header h2 {
+display:none;
+}
+#header {
+background: none;
+padding-bottom:none;
+}
+
+
+
+
+#header a {
+    text-decoration: underline;
+    word-wrap: break-all;
+    word-wrap: break-word;
+}
+
+a.pdf-link {
+   color: #800000;
+   display:block;
+   margin-left:1em;
+   float:right;
+   }
+a.pdf-link:hover:after{
+   content: "Tip: To download, print this to 'pdf'.";
+   margin-top:1.5em;
+   margin-left:-10em;
+   background:#FFFBF0;
+   position:absolute;
+   border: 1px solid #000000;
+   padding:2px;
+   color:#000000;
+   
+}
+
+
+#header img {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+
+#header .text-right img {
+    margin-right: 1em;
+}
+#container{
+padding-bottom:20px;
+margin:10px;
+min-width:95%;
+}
+
+div#main.row, div#header.row{
+margin-top:0px;
+padding-top:0px;
+}
+div#header.row{
+margin-bottom:0px;
+padding-bottom:0px;
+}
+
+
+#main div.panel-heading h1.panel-title,
+#main div.panel-heading h2.panel-title,
+#main div.panel-heading h3.panel-title,
+#main div.panel-heading h4.panel-title,
+#main div.panel-heading h5.panel-title,
+#main div.panel-heading h6.panel-title{
+
+     margin-top: 0;
+     margin-bottom: 0;
+     text-align: inherit;
+     text-indent:0;
+     word-spacing: inherit;
+     font-family: inherit;
+     font-style: inherit;
+     font-weight: inherit
+     font-size:initial;
+     color: inherit
+     letter-spacing: inherit;
+     text-decoration: inherit;
+     border-left: none;
+     padding-left: none;
+     background-color: inherit;
+     clear: initial;
+}
+
+
+
+ #main h1 { 
+ margin-top: 0;
+ margin-bottom: 16px;
+ text-align: left;
+ text-indent: 0;
+ word-spacing: 0.125em;
+ font-family: Helvetica, sans-serif;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 2.53em;
+ color: #444;
+ letter-spacing: 0;
+ text-decoration: none;
+ } 
+
+ #main h2 { 
+ margin-top: 32px;
+ margin-bottom: 16px;
+ text-align: left;
+ text-indent: 0;
+ word-spacing: 0.125em;
+ font-family: Helvetica, sans-serif;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 1.85em;
+ color: #333;
+ letter-spacing: 0;
+ text-decoration: none;
+ border-left: solid 3px #990000;
+ padding-left: 5px;
+ background-color: #DCDDDB;
+ clear: both;
+ } 
+
+ #main h3 { 
+ margin-top: 32px;
+ margin-bottom: 8px;
+ text-align: left;
+ word-spacing: 0.125em;
+ font-family: Helvetica, sans-serif;
+ font-style: normal;
+ font-weight: bold;
+ font-size: 1.25em;
+ color: #333;
+ letter-spacing: 0;
+ text-decoration: none;
+ text-transform: uppercase;
+ clear: both;
+ } 
+
+ #main h4 { 
+ margin-top: 24px;
+ margin-bottom: 8px;
+ text-align: left;
+ word-spacing: 0.250em;
+ font-family: Verdana, sans-serif;
+ font-style: bold;
+ font-weight: bold;
+ font-size: 1em;
+ color: #444;
+ letter-spacing: 0;
+ text-decoration: none;
+ text-transform: uppercase;
+ clear: both;
+ } 

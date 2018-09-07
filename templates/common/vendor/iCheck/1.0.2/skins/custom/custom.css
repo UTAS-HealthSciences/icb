@@ -1,0 +1,107 @@
+/* iCheck plugin Flat skin, red
+----------------------------------- */
+.icheckbox_custom,
+.iradio_custom {
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    /*width: 20px;*/
+    /*height: 20px;*/
+    /*width: 15px;*/
+    /*height: 15px;*/
+    width: 15px;
+    height: 15px;
+    /*background: url(red.png) no-repeat;*/
+    /*background-color:#999;*/
+    border: none;
+    cursor: pointer;
+
+    border-radius: 3px;
+
+    border: 1px solid #999;
+    background-position: -1px -1px;
+}
+
+
+.icheck-large .icheckbox_custom,
+.icheck-large .iradio_custom{
+    width: 42px;
+    height: 42px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    background-position: -2px -2px;
+    border: 3px solid #999;
+    border-radius: 12px;
+}
+
+/*.icheck-large .icheckbox_custom,*/
+/*.icheck-large .iradio_custom {*/
+    /*margin-top: 10px;*/
+    /*margin-bottom: 10px;*/
+    /*margin-left: -5px;*/
+/*}*/
+
+.icheckbox_custom.checked {
+    background-color: #468847;
+    background-image: url(white-tick-15.png);
+}
+
+.icheckbox_custom.disabled {
+    background-image: url(white-tick-15-trans.png);
+    cursor: default;
+}
+
+.iradio_custom.checked {
+    background-color: #468847;
+    background-image: url(white-tick-15.png);
+}
+
+.iradio_custom.disabled {
+    background-image: url(white-tick-15-trans.png);
+    cursor: default;
+}
+
+.iradio_custom.checked.disabled {
+    background-image: url(white-tick-15-trans.png);
+}
+
+.icheckbox_custom.checked.disabled {
+    background-image: url(white-tick-trans.png);
+}
+
+.icheck-large .icheckbox_custom.checked {
+    background-image: url(white-tick.png);
+}
+
+.icheck-large .icheckbox_custom.disabled {
+    background-image: url(white-tick-trans.png);
+}
+
+.icheck-large .icheckbox_custom.checked.disabled {
+    background-image: url(white-tick-trans.png);
+}
+
+.icheck-large .iradio_custom.checked {
+    background-image: url(white-tick.png);
+}
+
+.icheck-large .iradio_custom.disabled {
+    background-image: url(white-tick-trans.png);
+}
+
+.icheck-large .iradio_custom.checked.disabled {
+    background-image: url(white-tick-trans.png);
+}
+
+/* HiDPI support */
+/*@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {*/
+/*.icheckbox_custom,*/
+/*.iradio_custom {*/
+/*background-image: url(red@2x.png);*/
+/*-webkit-background-size: 176px 22px;*/
+/*background-size: 176px 22px;*/
+/*}*/
+/*}*/

@@ -1,0 +1,30 @@
+@import url('../../../../common/vendor/bootstrap/3.2.0/css/bootstrap.css');
+@import url('../../../common/css/bubble.css');
+@import url('../../../common/css/callout.css');
+@import url('../../../common/css/collapsible.css');
+@import url('../../../common/css/layout.css');
+@import url('../../../common/css/style.css');
+@import url('../../../common/css/interactive.css');
+
+body {
+    background-image: url('people-circle.png');
+
+    background-repeat: repeat;
+    background-position: center top;
+    background-color: #A1A3B5 !important;
+}
+#header h1 {
+    font-family: "omnes-pro", sans-serif;
+    /*margin-top: .2em;*/
+    /*margin-bottom: 0.2em;*/
+    font-size: 2em;
+    font-weight: 300;
+}
+
+#header{
+    padding: 10px;
+}
+
+#footer .caption{
+	color:#666868;
+}

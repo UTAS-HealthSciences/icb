@@ -1,0 +1,1 @@
+The pages in CNA001 are actually pointing to the resources in the nursing/cna246 folder

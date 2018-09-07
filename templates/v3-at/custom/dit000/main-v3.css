@@ -1,0 +1,65 @@
+@import url('../../../common/vendor/bootstrap/3.2.0/css/bootstrap.css');
+@import url('../../common/css/bubble.css');
+@import url('../../common/css/callout.css');
+@import url('../../common/css/collapsible.css');
+@import url('../../common/css/layout.css');
+@import url('../../common/css/style.css');
+@import url('../../common/css/interactive.css');
+
+
+.dit-logo:before {
+/*  don't put logo before heading anymore 
+
+    content: url('dit_logo_trans_w_45.png');
+    position: relative;
+    margin-right: 15px;
+    bottom: -13px;
+*/
+}
+
+#header h1 {
+    font-family:  "omnes-pro", sans-serif;
+    font-size: 2em;
+    font-weight: 300;
+}
+
+#header h1.dit-logo {
+ /*  margin-top:0px;*/
+   }
+
+#header a{
+    color: #4495d6;
+}
+
+#header a:hover {
+    color: #428BCA;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:  "proxima-nova", sans-serif;
+}
+
+body {
+    background: #B2CFCC !important, url('dit_honey_200.png') repeat center top;
+
+    background: url('dit_honey_200.png'), -webkit-linear-gradient(#B2CFCC, #D9F7F4);  /*For Safari 5.1 to 6.0*/
+    background: url('dit_honey_200.png'), -o-linear-gradient(#B2CFCC, #D9F7F4);  /*For Opera 11.1 to 12.0*/
+    background: url('dit_honey_200.png'), -moz-linear-gradient(#B2CFCC, #D9F7F4);  /*For Firefox 3.6 to 15*/
+    background: url('dit_honey_200.png'), linear-gradient(#B2CFCC, #D9F7F4);  /*Standard syntax*/
+
+    background-repeat: repeat, no-repeat;
+    background-color: #D9F7F4 !important;
+}
+
+li {
+margin-top: 4px;
+}
+
+/*#main h1:first-of-type {
+margin-top: 3px;
+}
+*/
+
+h1 small, h2 small, h3 small {
+font-size:80%;
+}
